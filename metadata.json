@@ -1,0 +1,6 @@
+{
+  "name": "Anna Seva",
+  "description": "Digital Public Distribution System (PDS) for Ration Card Holders and FPS Distributors.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
