@@ -165,7 +165,7 @@ fun SplashScreen(viewModel: RationViewModel) {
             Spacer(modifier = Modifier.height(8.dp))
 
             Text(
-                text = "Digital e-Ration Portal",
+                text = "Digital e-Ration App",
                 fontSize = 16.sp,
                 fontWeight = FontWeight.SemiBold,
                 color = SoftSageDarkText,
@@ -412,7 +412,7 @@ fun WelcomeScreen(viewModel: RationViewModel) {
         Spacer(modifier = Modifier.height(24.dp))
 
         Text(
-            text = "Anna Seva Portal",
+            text = "Anna Seva App",
             fontSize = 32.sp,
             fontWeight = FontWeight.Black,
             fontFamily = FontFamily.Serif,
@@ -663,7 +663,7 @@ fun LoginScreen(viewModel: RationViewModel, role: String) {
                     colors = ButtonDefaults.buttonColors(containerColor = PrimaryGoldenYellow, contentColor = Color.Black)
                 ) {
                     Text(
-                        text = if (!otpSent) "Request SMS/Email OTP 📲" else "Verify OTP & Access Portal 🔑",
+                        text = if (!otpSent) "Request SMS/Email OTP 📲" else "Verify OTP & Access App 🔑",
                         fontWeight = FontWeight.Bold,
                         fontSize = 15.sp
                     )
@@ -727,7 +727,7 @@ fun RegisterScreen(viewModel: RationViewModel, role: String) {
         Spacer(modifier = Modifier.height(16.dp))
 
         Text(
-            text = if (role == "citizen") "Portal Registration" else "Dealer Registration",
+            text = if (role == "citizen") "App Registration" else "Dealer Registration",
             fontSize = 28.sp,
             fontWeight = FontWeight.Black,
             fontFamily = FontFamily.Serif,
@@ -823,7 +823,7 @@ fun RegisterScreen(viewModel: RationViewModel, role: String) {
                     shape = RoundedCornerShape(12.dp),
                     colors = ButtonDefaults.buttonColors(containerColor = AccentSpicyOrange, contentColor = Color.White)
                 ) {
-                    Text("Securely Register & Enter Portal 🛡️", fontWeight = FontWeight.Bold, fontSize = 14.sp)
+                    Text("Securely Register & Enter App 🛡️", fontWeight = FontWeight.Bold, fontSize = 14.sp)
                 }
             }
         }
